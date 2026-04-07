@@ -37,7 +37,29 @@ public class Guna_StudentInfoTable extends common
 			<Fields />
 		</AxTableFieldGroup>
 	</FieldGroups>
-	<Fields />
+	<Fields>
+		<AxTableField xmlns=""
+			i:type="AxTableFieldString">
+			<Name>Student_Name</Name>
+			<StringSize>30</StringSize>
+		</AxTableField>
+		<AxTableField xmlns=""
+			i:type="AxTableFieldInt">
+			<Name>Student_Standard</Name>
+		</AxTableField>
+		<AxTableField xmlns=""
+			i:type="AxTableFieldDate">
+			<Name>Student_DOB</Name>
+		</AxTableField>
+		<AxTableField xmlns=""
+			i:type="AxTableFieldUtcDateTime">
+			<Name>Student_DateOfJoining</Name>
+		</AxTableField>
+		<AxTableField xmlns=""
+			i:type="AxTableFieldInt64">
+			<Name>Student_RollNo</Name>
+		</AxTableField>
+	</Fields>
 	<FullTextIndexes />
 	<Indexes />
 	<Mappings />
