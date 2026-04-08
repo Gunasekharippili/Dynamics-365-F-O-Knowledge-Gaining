@@ -32,9 +32,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="EDT Strings\" />
     <Folder Include="Tables\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AxEdt\Guna_CusAccEDT">
+      <SubType>Content</SubType>
+      <Name>Guna_CusAccEDT</Name>
+      <Link>EDT Strings\Guna_CusAccEDT</Link>
+    </Content>
+    <Content Include="AxEdt\Guna_NameEDT">
+      <SubType>Content</SubType>
+      <Name>Guna_NameEDT</Name>
+      <Link>EDT Strings\Guna_NameEDT</Link>
+    </Content>
     <Content Include="AxTable\Guna_StudentInfoTable">
       <SubType>Content</SubType>
       <Name>Guna_StudentInfoTable</Name>
