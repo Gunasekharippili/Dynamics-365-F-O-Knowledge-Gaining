@@ -39,6 +39,12 @@ public class Guna_StudentInfoTable extends common
 	</FieldGroups>
 	<Fields>
 		<AxTableField xmlns=""
+			i:type="AxTableFieldInt">
+			<Name>Student_Active</Name>
+			<ExtendedDataType>Guna_ActiveEDT</ExtendedDataType>
+			<IgnoreEDTRelation>Yes</IgnoreEDTRelation>
+		</AxTableField>
+		<AxTableField xmlns=""
 			i:type="AxTableFieldString">
 			<Name>Student_Name</Name>
 			<ExtendedDataType>Guna_NameEDT</ExtendedDataType>
